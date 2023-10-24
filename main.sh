@@ -8,8 +8,8 @@ unset DISPLAY
 
 echo "set -g mouse on" > ~/.tmux.conf
 
-tmux kill-session -t server
-tmux kill-session -t placeholder
+kill server
+kill placeholder
 
 BASEDIR="$PWD"
 
